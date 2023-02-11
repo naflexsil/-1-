@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Circus {
     class Circus {
@@ -12,7 +12,7 @@ namespace Circus {
             double result = 1;
 
             // цикл для умножения result на "a" n-ое количество
-            for(int i = 0; i < n; i++) {
+            for(int index = 0; index < n; ++index) {
                 result *= a;
             }
             Console.Write("результат = " + result);
